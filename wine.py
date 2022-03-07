@@ -43,7 +43,7 @@ for v in list(y) :
         newlist += [2]
 
 y = newlist
-
+print(y)
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
 model = RandomForestClassifier()
